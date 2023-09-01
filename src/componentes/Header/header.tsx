@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Lista from "./Lista/lista";
+import Lista from "./List/list";
 const Container = styled.div`
     background-color: #333;
     color: #fff;
