@@ -26,4 +26,3 @@ function Header ({ text }: {text: string}) {
 }
 
 export default Header;
-// (item, index) => ( <ListaLi key={index}>{links.item}</ListaLi> )
