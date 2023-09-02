@@ -1,11 +1,13 @@
 import React from 'react';
 import Footer from './componentes/Footer/footer';
-import Login from './componentes/Body/Login/login';
+import Header from './componentes/Header/header';
+import AboutBody from './componentes/Body/About/about';
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <Header text='Sobre'/>
+      <AboutBody/>
       <Footer/>
     </div>
   );
