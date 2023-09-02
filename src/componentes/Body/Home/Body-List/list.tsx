@@ -1,4 +1,4 @@
-import { Feature } from "../feature-style"
+import { Feature } from "../../feature-style"
 import styled from 'styled-components';
 
 const SectionFeatures = styled.section`
