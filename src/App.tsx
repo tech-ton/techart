@@ -1,13 +1,13 @@
 import React from 'react';
 import Footer from './componentes/Footer/footer';
 import Header from './componentes/Header/header';
-import BodyProfile from './componentes/Body/Profile/profile';
+import BodyArtists from './componentes/Body/Artists/artists';
 
 function App() {
   return (
     <div className="App">
-      <Header text='Perfil'/>
-      <BodyProfile/>
+      <Header text='Artistas'/>
+      <BodyArtists/>
       <Footer/>
     </div>
   );
